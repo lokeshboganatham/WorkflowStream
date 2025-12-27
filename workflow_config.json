@@ -1,0 +1,115 @@
+{
+  "workflow_steps": [
+    {
+      "id": 1,
+      "name": "Initiation",
+      "description": "Identification call with ET along with impact and savings on the engagement, project code",
+      "restricted_roles": [],
+      "attachment_allowed": false
+    },
+    {
+      "id": 2,
+      "name": "Kickoff",
+      "description": "Data received and communication of objectives to be built",
+      "restricted_roles": [],
+      "attachment_allowed": false
+    },
+    {
+      "id": 3,
+      "name": "Development1",
+      "description": "Development of analytical solution",
+      "restricted_roles": [],
+      "attachment_allowed": false
+    },
+    {
+      "id": 4,
+      "name": "Development2",
+      "description": "Draft output shared with ET",
+      "restricted_roles": [],
+      "attachment_allowed": false
+    },
+    {
+      "id": 5,
+      "name": "Development3",
+      "description": "Output confirmed by ET",
+      "restricted_roles": [],
+      "attachment_allowed": true
+    },
+    {
+      "id": 6,
+      "name": "Review",
+      "description": "Workflow walkthrough with Functional Lead",
+      "restricted_roles": [
+        "Functional Lead"
+      ],
+      "attachment_allowed": false
+    },
+    {
+      "id": 7,
+      "name": "Testing",
+      "description": "Testing of the workflow",
+      "restricted_roles": [],
+      "attachment_allowed": false
+    },
+    {
+      "id": 8,
+      "name": "Testing review",
+      "description": "Review and approval of testing document",
+      "restricted_roles": [],
+      "attachment_allowed": false
+    },
+    {
+      "id": 9,
+      "name": "Documentation preparation",
+      "description": "Preparation of know your analytical solution documentation",
+      "restricted_roles": [],
+      "attachment_allowed": false
+    },
+    {
+      "id": 10,
+      "name": "Documentation Review",
+      "description": "Review of the documentation",
+      "restricted_roles": [
+        "Manager",
+        "Senior Manager",
+        "Director"
+      ],
+      "attachment_allowed": false
+    },
+    {
+      "id": 11,
+      "name": "Delivery",
+      "description": "Rolling out the email of Analytics and documentation",
+      "restricted_roles": [
+        "Manager",
+        "Senior Manager",
+        "Director"
+      ],
+      "attachment_allowed": false
+    },
+    {
+      "id": 12,
+      "name": "Methodology Approval",
+      "description": "Methodology Approval",
+      "restricted_roles": [
+        "Functional Lead"
+      ],
+      "attachment_allowed": true
+    },
+    {
+      "id": 13,
+      "name": "Presentation",
+      "description": "Visualization of results and presentation",
+      "restricted_roles": [],
+      "attachment_allowed": false,
+      "optional": true
+    }
+  ],
+  "user_roles": {
+    "admin": "Admin",
+    "user1": "Functional Lead",
+    "user2": "Manager",
+    "user3": "Senior Manager",
+    "user4": "Director"
+  }
+}
